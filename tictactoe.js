@@ -39,7 +39,7 @@ function set(idvalue)
 
 	// Add a statement to display the current player (“X” or “O”) on the button clicked (Hint: innerHTML) 
 	buttonclicked.innerHTML = readpara;
-	changeplayer();
+	check_win();
 	}
 	else
 	{
@@ -48,3 +48,55 @@ function set(idvalue)
 
 	
 }
+
+function check_win() 
+{ 
+	var player = document.getElementById("currentplayer").innerHTML;
+	
+	if(document.getElementById("0").innerHTML ==  document.getElementById("1").innerHTML && document.getElementById("1").innerHTML ==  document.getElementById("2").innerHTML &&document.getElementById("1").innerHTML == player)
+	{ 
+    	alert("You win! The winner is "+ player); 
+  	}
+	
+	else if(document.getElementById("3").innerHTML ==  document.getElementById("4").innerHTML && document.getElementById("4").innerHTML ==  document.getElementById("5").innerHTML &&document.getElementById("4").innerHTML == player)
+	{ 
+    	alert("You win! The winner is "+ player); 
+  	}
+	
+	else if(document.getElementById("6").innerHTML ==  document.getElementById("7").innerHTML && document.getElementById("7").innerHTML ==  document.getElementById("8").innerHTML &&document.getElementById("7").innerHTML == player)
+	{ 
+    	alert("You win! The winner is "+ player); 
+  	}
+	
+	else if(document.getElementById("0").innerHTML ==  document.getElementById("3").innerHTML && document.getElementById("3").innerHTML ==  document.getElementById("6").innerHTML &&document.getElementById("3").innerHTML == player)
+	{ 
+    	alert("You win! The winner is "+ player); 
+  	}
+	
+	else if(document.getElementById("1").innerHTML ==  document.getElementById("4").innerHTML && document.getElementById("4").innerHTML ==  document.getElementById("7").innerHTML &&document.getElementById("4").innerHTML == player)
+	{ 
+    	alert("You win! The winner is "+ player); 
+  	}
+	
+	else if(document.getElementById("2").innerHTML ==  document.getElementById("5").innerHTML && document.getElementById("5").innerHTML ==  document.getElementById("8").innerHTML &&document.getElementById("5").innerHTML == player)
+	{ 
+    	alert("You win! The winner is "+ player); 
+  	}
+	
+	else if(document.getElementById("0").innerHTML ==  document.getElementById("4").innerHTML && document.getElementById("4").innerHTML ==  document.getElementById("8").innerHTML &&document.getElementById("4").innerHTML == player)
+	{ 
+    	alert("You win! The winner is "+ player); 
+  	}
+	
+	else if(document.getElementById("2").innerHTML ==  document.getElementById("4").innerHTML && document.getElementById("4").innerHTML ==  document.getElementById("6").innerHTML &&document.getElementById("4").innerHTML == player)
+	{ 
+    	alert("You win! The winner is "+ player); 
+  	}
+	
+	else
+	{
+		changeplayer(); // nobody wins, change player
+	}
+
+}
+

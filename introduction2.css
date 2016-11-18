@@ -1,0 +1,40 @@
+/* Alex Smith
+November 18,2016
+Project 3, Section 2
+Introduction */
+
+body
+{
+	background-color: lightgreen;
+}
+
+#ex1
+{
+	font-family: arial;
+	color: darkblue;
+	text-align: center;
+}
+
+#class
+{
+	font-family: Palatino Linotype;
+}
+
+#name
+{
+	font-family: Verdana;
+}
+
+#ex
+{
+	border: 2px solid darkgreen;
+	margin-right:900px;
+}
+
+
+h1
+{
+	font-family: Georgia;
+	color: blue;
+	text-align: center;
+}
