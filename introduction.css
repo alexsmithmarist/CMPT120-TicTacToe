@@ -3,15 +3,25 @@ November 3,2016
 Project 1, Part 1 Section 2
 Introduction */
 
+#USA
+{
+	float: left;
+}
+
+#Canada
+{
+	float: right;
+}
+
 body
 {
-	background-color: lightgreen;
+	background-color: red;
 }
 
 #ex1
 {
 	font-family: arial;
-	color: darkblue;
+	color: white;
 	text-align: center;
 }
 
@@ -31,10 +41,15 @@ body
 	margin-right:900px;
 }
 
+#link
+{
+	text-align: center;
+	color: white;
+}
 
 h1
 {
 	font-family: Georgia;
-	color: blue;
+	color: white;
 	text-align: center;
 }

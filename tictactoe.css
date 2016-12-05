@@ -1,28 +1,28 @@
 /* Alex Smith
-November 3,2016
-Project 1, Part 1 Section 2
-Tic-Tac-Toe */
+December 4,2016
+Project 4 */
 
 body
 {
-	background-color: lightgreen;
+	background-color: red;
 	text-align: center;
+	color: white;
 }
 
 h1
 {
 	font-family: Georgia;
-	color: blue;
+	color: white;
 }
 
 #currentplayer
 {
-	color: darkblue;
+	color: white;
 }
 
 #cp
 {
-	color: darkblue;
+	color: white;
 }
 
 #board
